@@ -1,0 +1,24 @@
+{
+  "name": "KahootKeys",
+  "version": "1.0.0",
+  "description": "KahootKeys",
+  "main": "index.js",
+  "dependencies": {
+    "uglify-js": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "uglifyjs index.js > index.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkachnic/KahootKeys.git"
+  },
+  "keywords": [],
+  "author": "Andrew Kachnic <ajkachnic@protonmail.com> (andrewkachnic.now.sh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajkachnic/KahootKeys/issues"
+  },
+  "homepage": "https://github.com/ajkachnic/KahootKeys#readme"
+}
