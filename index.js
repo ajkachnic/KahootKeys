@@ -9,7 +9,7 @@
         const key = e.key;
         // Top Left
         if (key.toLowerCase() === tl) {
-            document.getElementsByClassName("card-button__CardButton-vbewcy-1").click[0]();
+            document.getElementsByClassName("card-button__CardButton-vbewcy-1")[0].click();
         }
         // Top Right
         else if (key.toLowerCase() === tr) {
